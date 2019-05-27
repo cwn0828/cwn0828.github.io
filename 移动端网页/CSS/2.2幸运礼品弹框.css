@@ -1,0 +1,365 @@
+html {
+	font-size: 50px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top {
+	height: 1.28rem;
+}
+
+.top p {
+	font-size: .36rem;
+	text-align: center;
+	line-height: 1.28rem;
+	font-weight: bold;
+}
+
+.return {
+	float: left;
+	width: 7%;
+	height: 100%;
+}
+
+.return img {
+	width: 48%;
+	height: 27.3%;
+	padding-top: .48rem;
+	padding-left: .8em;
+	vertical-align: top;
+}
+
+.content {
+	overflow: hidden;
+	padding-left: .5rem;
+	padding-right: .3rem;
+}
+
+.design-present {
+	padding-top: .2rem;
+}
+
+.item-1,
+.item-2 {
+	overflow: hidden;
+}
+
+.icon1 {
+	float: left;
+	background: url(../img/design-present.png) no-repeat;
+	background-size: cover;
+	width: .35rem;
+	height: .35rem;
+}
+
+.icon-left span {
+	float: right;
+	font-size: .28rem;
+	margin-left: .18rem;
+	color: rgb(101, 101, 101);
+	font-weight: bold;
+	line-height: .35rem;
+}
+
+.icon-left {
+	float: left;
+	width: 4rem;
+	overflow: hidden;
+}
+
+.icon-left1 {
+	float: left;
+	width: 2.8rem;
+	overflow: hidden;
+}
+
+.icon-left1 span {
+	float: right;
+	font-size: .28rem;
+	margin-left: .18rem;
+	color: rgb(101, 101, 101);
+	font-weight: bold;
+	line-height: .35rem;
+}
+
+.right-item {
+	float: right;
+	font-size: .24rem;
+	color: rgb(101, 101, 101);
+	line-height: .35rem;
+}
+
+.big-present {
+	padding-top: .36rem;
+	padding-left: 2.12rem;
+	display: block;
+	width: 2.26rem;
+}
+
+.loading {
+	padding-top: .45rem;
+	width: .7rem;
+	padding-left: 2.9rem;
+}
+
+.present {
+	padding-top: .5rem;
+}
+
+.itemDetails {
+	clear: both;
+	overflow: hidden;
+	padding-top: .32rem;
+	padding-right: .2rem;
+	font-size: .24rem;
+}
+
+.num {
+	float: left;
+}
+
+.fortune {
+	float: right;
+}
+
+.fortune img {
+	width: .24rem;
+}
+
+.item-box {
+	padding-top: .38rem;
+}
+
+.item-box li {
+	float: left;
+	width: 3rem;
+	border: 1px solid rgb(224, 224, 224);
+	border-radius: 10px;
+	box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+	margin-right: .5rem;
+	margin-bottom: .3rem;
+}
+
+.item-top {
+	overflow: hidden;
+}
+
+.item-left {
+	float: left;
+	width: 1.8rem;
+	padding-left: .3rem;
+	padding-top: .2rem;
+}
+
+.quality {
+	font-size: .3rem;
+	font-weight: bold;
+	color: rgb(188, 188, 188);
+}
+
+.price {
+	display: block;
+	font-size: .24rem;
+	color: rgb(101, 101, 101);
+	height: .34rem;
+	margin-top: .2rem;
+}
+
+.priceDetails {
+	font-size: .48rem;
+	line-height: .34rem;
+}
+
+.wealth {
+	display: block;
+	font-size: .2rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+}
+
+.item-right {
+	float: right;
+	width: .58rem;
+	height: .50rem;
+	padding-top: .3rem;
+	padding-right: .3rem;
+}
+
+.king1 {
+	display: block;
+	background: url(../img/king1.png) no-repeat;
+	background-size: cover;
+	width: .58rem;
+	height: .50rem;
+}
+
+.king2 {
+	display: block;
+	background: url(../img/king2.png) no-repeat;
+	background-size: cover;
+	width: .58rem;
+	height: .50rem;
+}
+
+.king3 {
+	display: block;
+	background: url(../img/king3.png) no-repeat;
+	background-size: cover;
+	width: .58rem;
+	height: .50rem;
+}
+
+.king4 {
+	display: block;
+	background: url(../img/king4.png) no-repeat;
+	background-size: cover;
+	width: .58rem;
+	height: .50rem;
+}
+
+.king5 {
+	display: block;
+	background: url(../img/king5.png) no-repeat;
+	background-size: cover;
+	width: .58rem;
+	height: .50rem;
+}
+
+.king6 {
+	display: block;
+	background: url(../img/king6.png) no-repeat;
+	background-size: cover;
+	width: .58rem;
+	height: .50rem;
+}
+
+.king7 {
+	display: block;
+	background: url(../img/king7.png) no-repeat;
+	background-size: cover;
+	width: .58rem;
+	height: .50rem;
+}
+
+.king8 {
+	display: block;
+	background: url(../img/king8.png) no-repeat;
+	background-size: cover;
+	width: .58rem;
+	height: .50rem;
+}
+
+.item-bottom {
+	clear: both;
+	padding-left: 1.30rem;
+	border-top: 1px solid rgb(227, 227, 227);
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+}
+
+.item-bottom img {
+	width: .32rem;
+}
+
+.item-bottom span {
+	padding-left: .4rem;
+	padding-right: .4rem;
+	font-size: .3rem;
+}
+
+.color2 {
+	color: rgb(201, 179, 113);
+}
+
+.color3 {
+	color: rgb(198, 206, 230);
+}
+
+.color4 {
+	color: rgb(255, 222, 39);
+}
+
+.color5 {
+	color: rgb(76, 223, 241);
+}
+
+.color6 {
+	color: rgb(92, 76, 241);
+}
+
+.color7 {
+	color: rgb(196, 76, 241);
+}
+
+.color8 {
+	color: rgb(241, 76, 227);
+}
+
+.tips {
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+}
+
+.tips p {
+	font-size: .22rem;
+	text-align: center;
+	color: rgb(135, 135, 135);
+	font-weight: bold;
+}
+
+.bottom {
+	padding-left: .5rem;
+	padding-right: .3rem;
+	border-top: 1px solid rgb(225, 225, 225);
+	overflow: hidden;
+}
+
+.bottom-left {
+	float: left;
+	width: 1.28rem;
+}
+
+.objects {
+	display: block;
+	font-size: .22rem;
+	padding-top: .3rem;
+	padding-left: .1rem;
+}
+
+.total {
+	color: rgb(51, 51, 51);
+	display: block;
+	font-size: .42rem;
+	padding-top: .10rem;
+	padding-bottom: .25rem;
+}
+
+.bottom-right {
+	float: right;
+	width: 3.25rem;
+	padding-top: .47rem;
+}
+
+.bottom-right button {
+	float: right;
+	height: .65rem;
+	width: 1.5rem;
+	border-radius: 5px;
+	background: rgb(105, 190, 73);
+	color: #FFFFFF;
+	border: none;
+	font-size: .3rem;
+}
+
+.select {
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+#alert{
+	margin-right: 0; 
+	border: 1px solid rgb(105, 190, 73);
+}

@@ -1,0 +1,206 @@
+html {
+	font-size: 50px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top {
+	height: 1.28rem;
+}
+
+.top p {
+	font-size: .36rem;
+	text-align: center;
+	line-height: 1.28rem;
+	font-weight: bold;
+}
+
+.return {
+	float: left;
+	width: 7%;
+	height: 100%;
+}
+
+.return img {
+	width: 48%;
+	height: 27.3%;
+	padding-top: .48rem;
+	padding-left: .8em;
+	vertical-align: top;
+}
+
+.content {
+	padding-left: .3rem;
+	margin-right: .3rem;
+}
+
+.banner {
+	padding-top: .5rem;
+}
+
+.banner img {
+	width: 2.49rem;
+	padding-left: 2.2rem;
+}
+
+.gift {
+	font-size: .3rem;
+	padding-left: 2.58rem;
+	padding-top: .3rem;
+	padding-bottom: .2rem;
+	font-family: "黑体";
+	font-weight: bold;
+}
+
+.wish {
+	font-size: .36rem;
+	margin-left: 2.15rem;
+	font-family: "黑体";
+	padding-bottom: .3rem;
+}
+
+.details {
+	padding-left: .4rem;
+	padding-right: .4rem;
+	overflow: hidden;
+	width: 6.1rem;
+	border: 1px solid rgb(224, 224, 224);
+	border-radius: 5px;
+}
+
+.details-left {
+	float: left;
+	width: 3.05rem;
+	padding-top: .35rem;
+}
+
+.details-left li {
+	font-size: .28rem;
+	color: rgb(101, 101, 101);
+	padding-bottom: .3rem;
+}
+
+.details-right {
+	float: right;
+	width: 3.05rem;
+	padding-top: .35rem;
+}
+
+.details-right li {
+	text-align: right;
+	font-size: .28rem;
+	color: rgb(101, 101, 101);
+	padding-bottom: .3rem;
+}
+
+ul>.time {
+	color: rgb(201, 201, 201);
+}
+
+.tips {
+	overflow: hidden;
+	padding-top: .2rem;
+	font-size: .22rem;
+	color: rgb(135, 135, 135);
+}
+
+.tips-left {
+	float: left;
+}
+
+.tips-right {
+	float: right;
+}
+
+.color1 {
+	color: rgb(247, 190, 17);
+	font-weight: normal;
+}
+
+.color2 {
+	color: rgb(105, 190, 73);
+	font-weight: normal;
+}
+
+.bottom {
+	margin-top: .5rem;
+}
+
+.bottom-top {
+	background: rgb(248, 248, 248);
+	font-size: .24rem;
+	line-height: .5rem;
+	height: .5rem;
+}
+
+.l {
+	float: left;
+	color: rgb(101, 101, 101);
+	margin-left: .3rem;
+}
+
+.r {
+	float: right;
+	color: rgb(135, 135, 135);
+	margin-right: .3rem;
+}
+
+.bottom-content {
+	display: flex;
+	margin-left: .3rem;
+	position: relative;
+}
+
+.bottom-content span {
+	display: block;
+	margin-bottom: .2rem;
+	font-size: .26rem;
+	color: rgb(101,101,101);
+}
+
+.item1 {
+	margin-top: .25rem;
+	flex: 0.5;
+}
+
+.item2 {
+	margin-top: .2rem;
+	flex: 1;
+}
+
+.item2>span {
+	display: block;
+	width: .43rem;
+	height: .43rem;
+	background: rgb(209, 209, 209);
+	border-radius: 5px;
+}
+
+.item3 {
+	margin-top: .25rem;
+	flex: 2;
+}
+
+.item4 {
+	margin-top: .25rem;
+	flex: 4;
+}
+
+.item5 {
+	margin-top: .25rem;
+	flex: 3;
+}
+
+.top-king {
+	background: url(../img/top-king.png) no-repeat;
+	width: .3rem;
+	height: .3rem;
+	background-size: cover;
+	position: absolute;
+	left: .5rem;
+	bottom: 1.7rem;
+	z-index: 10;
+}

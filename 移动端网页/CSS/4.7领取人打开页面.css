@@ -1,0 +1,123 @@
+html {
+	font-size: 50px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top {
+	height: 1.28rem;
+}
+
+.top p {
+	font-size: .36rem;
+	text-align: center;
+	line-height: 1.28rem;
+	font-weight: bold;
+}
+
+.return {
+	float: left;
+	width: 7%;
+	height: 100%;
+}
+
+.return img {
+	width: 48%;
+	height: 27.3%;
+	padding-top: .48rem;
+	padding-left: .8em;
+	vertical-align: top;
+}
+.banner{
+	text-align: center;
+	padding-top: .36rem;
+}
+.banner p{
+	line-height: 1rem;
+	font-size: .3rem;
+	color: rgb(51,51,51);
+}
+.bg{
+	width: 5.6rem;
+	text-align: center;
+}
+.message-top{
+	font-size: .24rem;
+	line-height: .5rem;
+	height: .5rem;
+	background: rgb(248,248,248);
+}
+.tl{
+	float: left;
+}
+.tl p{
+	padding-left: .6rem;
+	color: rgb(101,101,101);
+}
+.tr{
+	float: right;
+}
+.tr p{
+	padding-right: .7rem;
+	color: rgb(135,135,135);
+}
+
+ul li{
+	float: left;
+	width: 100%;
+	line-height: .9rem;
+	font-size: .28rem;
+}
+.label{
+	margin-left: .6rem;
+}
+.content1{
+	margin-left: 1rem;
+}
+.content2{
+	margin-left: .75rem;
+}
+.next{
+	margin-left: 1.8rem;
+	width: .14rem;
+}
+
+.action{
+	clear: both;
+	padding-top: .8rem;
+}
+
+.action p a{
+	display: block;
+	font-size: .26rem;
+	color: rgb(87,107,149);
+	text-align: center;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+
+.action button{
+	font-size: .36rem;
+	color: #FFFFFF;
+	height: .88rem;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	width: 6.9rem;
+	margin-left: .3rem;
+	background: rgb(9,187,7);
+}
+.color2 {
+	color: rgb(105, 190, 73);
+}
+.fr{
+	margin-right: .65rem;
+}
+
+.address{
+	width: 3.88rem;
+	line-height: .4rem;
+}

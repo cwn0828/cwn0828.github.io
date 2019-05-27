@@ -1,0 +1,171 @@
+html {
+	font-size: 50px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top {
+	height: 1.28rem;
+}
+
+.top p {
+	font-size: .36rem;
+	text-align: center;
+	line-height: 1.28rem;
+	font-weight: bold;
+}
+
+.return {
+	float: left;
+	width: 7%;
+	height: 100%;
+}
+
+.return img {
+	width: 48%;
+	height: 27.3%;
+	padding-top: .48rem;
+	padding-left: .8em;
+	vertical-align: top;
+}
+
+.total {
+	margin-left: .45rem;
+	margin-right: .45rem;
+	width: 6.58rem;
+	border: 1px solid rgb(224, 224, 224);
+	border-radius: 5px;
+	box-shadow: 0 0 0.15rem rgba(0, 0, 0, 0.1);
+}
+
+.total img {
+	width: .66rem;
+	margin-top: .4rem;
+	margin-left: 3rem;
+}
+
+.total>p {
+	margin-top: .3rem;
+	margin-left: 2.6rem;
+	font-size: .3rem;
+	color: #000000;
+	font-weight: bold;
+}
+
+.total>span {
+	display: block;
+	margin-top: .2rem;
+	margin-left: 2.5rem;
+	font-size: .6rem;
+	font-weight: 500;
+}
+
+.details {
+	overflow: hidden;
+	color: rgb(101, 101, 101);
+	margin-top: .1rem;
+	margin-bottom: .5rem;
+	margin-left: 2rem;
+	font-size: .3rem;
+}
+
+.content {
+	margin-top: .3rem;
+	padding-left: .45rem;
+	padding-right: .45rem;
+}
+
+.content li {
+	width: 6.58rem;
+	border: 1px solid rgb(224, 224, 224);
+	border-radius: 5px;
+	margin-bottom: .2rem;
+}
+
+.li-item {
+	overflow: hidden;
+	margin-top: .3rem;
+}
+
+.item-left {
+	float: left;
+	margin-left: .25rem;
+	font-weight: bold;
+}
+
+.item-left p {
+	margin-bottom: .3rem;
+	font-size: .3rem;
+}
+
+.item-left span {
+	display: block;
+	margin-bottom: .3rem;
+	font-size: .42rem;
+}
+
+.item-right {
+	float: right;
+	text-align: right;
+	font-size: .24rem;
+	margin-right: .2rem;
+}
+
+.item-right p {
+	margin-bottom: .55rem;
+}
+
+.item-right span {
+	display: block;
+	margin-bottom: .4rem;
+}
+
+.bottom {
+	margin-top: .4rem;
+	margin-bottom: .3rem;
+	text-align: center;
+}
+
+.bottom a {
+	font-size: .26rem;
+	color: rgb(87, 107, 149);
+}
+
+.color1 {
+	color: rgb(247, 190, 17);
+	font-weight: normal;
+}
+
+.color2 {
+	color: rgb(105, 190, 73);
+	font-weight: normal;
+}
+.xiaomi{
+	overflow: hidden;
+}
+.l{
+	float: left;
+}
+.l span{
+	background: url(../img/brush.png) no-repeat;
+	background-size: cover;
+	width: .66rem;
+	height: .66rem;
+}
+.r{
+	float: right;
+	color: rgb(110,110,110);
+	font-size: .24rem;
+	font-weight: normal;
+	margin-top: .15rem;
+	margin-left: .2rem;
+}
+#margin{
+	margin-bottom: .1rem;
+}
+#zero{
+	margin-bottom: .1rem;
+}

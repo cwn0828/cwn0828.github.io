@@ -1,0 +1,135 @@
+html {
+	font-size: 50px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top {
+	height: 1.28rem;
+}
+
+.top p {
+	font-size: .36rem;
+	text-align: center;
+	line-height: 1.28rem;
+	font-weight: bold;
+}
+
+.return {
+	float: left;
+	width: 7%;
+	height: 100%;
+}
+
+.return img {
+	width: 48%;
+	height: 27.3%;
+	padding-top: .48rem;
+	padding-left: .8em;
+	vertical-align: top;
+}
+
+.content {
+	padding-left: .3rem;
+	margin-right: .3rem;
+}
+
+.banner {
+	padding-top: .5rem;
+}
+
+.banner img {
+	width: 2.49rem;
+	padding-left: 2.2rem;
+}
+
+.banner p {
+	font-size: .3rem;
+	padding-left: 2.58rem;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+	font-family: "黑体";
+	font-weight: bold;
+}
+
+.details {
+	padding-left: .4rem;
+	padding-right: .4rem;
+	overflow: hidden;
+	width: 6.1rem;
+	border: 1px solid rgb(224, 224, 224);
+	border-radius: 5px;
+}
+
+.details-left {
+	float: left;
+	width: 3.05rem;
+	padding-top: .35rem;
+}
+
+.details-left li {
+	font-size: .28rem;
+	color: rgb(101, 101, 101);
+	padding-bottom: .3rem;
+}
+
+.details-right {
+	float: right;
+	width: 3.05rem;
+	padding-top: .35rem;
+}
+
+.details-right li {
+	text-align: right;
+	font-size: .28rem;
+	color: rgb(101, 101, 101);
+	padding-bottom: .3rem;
+}
+
+.say {
+	padding-top: .2rem;
+	position: relative;
+}
+
+.say p {
+	font-size: .24rem;
+	color: rgb(87, 109, 149);
+}
+
+.say textarea {
+	margin-top: .1rem;
+	width: 6.9rem;
+	height: 2.4rem;
+	border: none;
+	border-radius: 5px;
+	background: rgb(248, 248, 248);
+	outline: none;
+	font-size: .3rem;
+	color: rgb(101,101,101);
+	padding: .3rem 0;
+}
+.say span{
+	font-size: .24rem;
+	position: absolute;
+	top: 3.05rem;
+	right: .3rem;
+	color: rgb(224,224,224);
+}
+
+.bottom {
+	padding-top: .55rem;
+	padding-bottom: .5rem;
+}
+
+.bottom button {
+	color: rgb(219, 244, 219);
+	background: rgb(157, 228, 156);
+	border: none;
+	width: 6.9rem;
+	height: .88rem;
+	outline: none;
+	font-size: .36rem;
+}

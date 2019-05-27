@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="CSS/reset.css" />
+		<link rel="stylesheet" type="text/css" href="CSS/2.2幸运礼品弹框.css" />
+		<link rel="stylesheet" type="text/css" href="CSS/响应式.css" />
+		<script src="JS/jquery.min.js"></script>
+		<script src="JS/showText.js"></script>
+		<script src="JS/2.2弹框.js"></script>
+		<title>幸运礼品</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="top">
+				<a href="2.1订单购买页.html" class="return">
+					<img src="img/return.png">
+				</a>
+				<p>购买礼盒</p>
+			</div>
+			<div class="content">
+				<div class="design-present">
+					<div class="item-1">
+						<div class="icon-left1">
+							<div class="icon1"></div>
+							<span>选择分享礼盒样式</span>
+						</div>
+					</div>
+					<img src="img/big-present.png" class="big-present">
+					<img src="img/loading.png" class="loading">
+				</div>
+				<div class="present">
+					<div class="item-2">
+						<div class="icon-left">
+							<div class="icon1"></div>
+							<span>选择礼盒内物品数量及品质</span>
+						</div>
+						<div class="itemDetails">
+							<span class="num">已选数量：9</span>
+							<span class="fortune">
+								幸运礼品：iPhone X
+								<a href="">
+									<img src="img/warnning.png">
+								</a>
+							</span>
+						</div>
+					</div>
+					<div class="item-box">
+						<ul>
+							<li>
+								<div class="item-top">
+									<div class="item-left">
+										<span class="quality">1级品质</span>
+										<span class="price">
+											<strong class="priceDetails">18</strong>元
+										</span>
+										<span class="wealth">(价值 10-30元)</span>
+									</div>
+									<div class="item-right">
+										<span class="king1"></span>
+									</div>
+								</div>
+								<div class="item-bottom">
+									<img src="img/add.png">
+								</div>
+							</li>
+							<li style="margin-right: 0;">
+								<div class="item-top">
+									<div class="item-left">
+										<span class="quality color2">2级品质</span>
+										<span class="price">
+											<strong class="priceDetails">38</strong>元
+										</span>
+										<span class="wealth">(价值 10-30元)</span>
+									</div>
+									<div class="item-right">
+										<span class="king2"></span>
+									</div>
+								</div>
+								<div class="item-bottom">
+									<img src="img/add.png">
+								</div>
+							</li>
+							<li>
+								<div class="item-top">
+									<div class="item-left">
+										<span class="quality color3">3级品质</span>
+										<span class="price">
+											<strong class="priceDetails">68</strong>元
+										</span>
+										<span class="wealth">(价值 40-80元)</span>
+									</div>
+									<div class="item-right">
+										<span class="king3"></span>
+									</div>
+								</div>
+								<div class="item-bottom">
+									<img src="img/add.png">
+								</div>
+							</li>
+							<li id="alert">
+								<div class="item-top">
+									<div class="item-left">
+										<span class="quality color4">4级品质</span>
+										<span class="price">
+											<strong class="priceDetails">98</strong>元
+										</span>
+										<span class="wealth">(价值 80-120元)</span>
+									</div>
+									<div class="item-right">
+										<span class="king4"></span>
+									</div>
+								</div>
+								<div class="item-bottom select">
+									<img src="img/-.png">
+									<span>99</span>
+									<img src="img/add.png">
+								</div>
+							</li>
+							<li>
+								<div class="item-top">
+									<div class="item-left">
+										<span class="quality color5">5级品质</span>
+										<span class="price">
+											<strong class="priceDetails">128</strong>元
+										</span>
+										<span class="wealth">(价值 380-500元)</span>
+									</div>
+									<div class="item-right">
+										<span class="king5"></span>
+									</div>
+								</div>
+								<div class="item-bottom">
+									<img src="img/add.png">
+								</div>
+							</li>
+							<li style="margin-right: 0;">
+								<div class="item-top">
+									<div class="item-left">
+										<span class="quality color6">6级品质</span>
+										<span class="price">
+											<strong class="priceDetails">268</strong>元
+										</span>
+										<span class="wealth">(价值 580-1000元)</span>
+									</div>
+									<div class="item-right">
+										<span class="king6"></span>
+									</div>
+								</div>
+								<div class="item-bottom">
+									<img src="img/add.png">
+								</div>
+							</li>
+							<li>
+								<div class="item-top">
+									<div class="item-left">
+										<span class="quality color7">7级品质</span>
+										<span class="price">
+											<strong class="priceDetails">388</strong>元
+										</span>
+										<span class="wealth">(价值 980-1500元)</span>
+									</div>
+									<div class="item-right">
+										<span class="king7"></span>
+									</div>
+								</div>
+								<div class="item-bottom">
+									<img src="img/add.png">
+								</div>
+							</li>
+							<li style="margin-right: 0;">
+								<div class="item-top">
+									<div class="item-left">
+										<span class="quality color8">8级品质</span>
+										<span class="price">
+											<strong class="priceDetails">2018</strong>元
+										</span>
+										<span class="wealth">(价值 1999-9999元)</span>
+									</div>
+									<div class="item-right">
+										<span class="king8"></span>
+									</div>
+								</div>
+								<div class="item-bottom">
+									<img src="img/add.png">
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="tips">
+				<p>*暂不支持的收货地区：新疆、西藏、青海、港澳台</p>
+			</div>
+			<div class="bottom">
+				<div class="bottom-left">
+					<span class="objects">共9件商品</span>
+					<strong class="total">￥0.00</strong>
+				</div>
+				<div class="bottom-right">
+					<a href="2.3购买礼盒.html" target="_blank">
+						<button type="button">购买</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

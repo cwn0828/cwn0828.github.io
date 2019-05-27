@@ -1,0 +1,77 @@
+html {
+	font-size: 50px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top {
+	height: 1.28rem;
+}
+
+.top p {
+	font-size: .36rem;
+	text-align: center;
+	line-height: 1.28rem;
+	font-weight: bold;
+}
+
+.swiper {
+	position: relative;
+}
+
+.zengli {
+	width: 100%;
+}
+
+.qing {
+	width: 88%;
+	padding: .6rem .45rem;
+	padding-bottom: .48rem;
+}
+
+.king {
+	background: url(../img/king.png) no-repeat;
+	background-size: contain;
+	width: 6%;
+	height: 6%;
+	position: absolute;
+	top: 4rem;
+	right: .3rem;
+}
+
+.border {
+	width: 62%;
+	margin: 0 1.4rem;
+}
+
+.items {
+	width: 88%;
+	padding: .43rem .45rem;
+	padding-bottom: 0;
+}
+
+.link1 {
+	float: left;
+	font-size: .28rem;
+	line-height: 1.66rem;
+	margin-left: 1.68rem;
+	color: rgb(68, 68, 68);
+	font-weight: bold;
+}
+
+.link1 span {
+	border-right: 1px solid #000000;
+	padding-right: .9rem;
+}
+
+.link2 {
+	float: right;
+	font-size: .28rem;
+	line-height: 1.66rem;
+	margin-right: 1.68rem;
+	color: rgb(68, 68, 68);
+	font-weight: bold;
+}
