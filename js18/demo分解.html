@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#one{
+				width: 1000px;
+				height: 30px;
+				background-color: orange;
+				border-radius: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="one"></div>
+		<button id="start">开始</button>
+		<img src="img/h0.png" alt="" id="wolf">
+	</body>
+	<script type="text/javascript">
+		var oneDiv = document.getElementById("one");
+		var startBtn = document.getElementById("start");
+		var oneWidth = oneDiv.offsetWidth;
+	startBtn.onclick = function (){
+			var timer = setInterval(function(){
+			oneWidth -= 2;
+			oneDiv.style.width = oneWidth + "px";
+			if(oneWidth < 0){
+				clearInterval(timer);
+			}
+		},15);
+	}
+	
+	//第一种方式:
+	var wolfImg = document.getElementById("wolf");
+	
+	// var index = 0;//用来记录图片
+	// //狼上升的定时器
+	// var wolfUp = setInterval(function(){
+	// 	index++;
+	// 	wolfImg.src = "img/h"+index+".png";
+	// 	if(index == 5){
+	// 		//清除上升的定时器
+	// 		clearInterval(wolfUp);
+	// 		//启动狼下降的定时器
+	// 		wolfDown();
+	// 	}
+	// },150);
+	// 
+	// 
+	// //狼下降的函数
+	// function wolfDown(){
+	// 	
+	// 		var wolfD = setInterval(function(){
+	// 		index--;
+	// 		wolfImg.src = "img/h"+index+".png";
+	// 		if(index == 0){
+	// 			//清除下降|的定时器
+	// 			clearInterval(wolfD);
+	// 			//移除该节点
+	// 			document.body.removeChild(wolfImg);
+	// 		}
+	// 	},150);
+	// 	
+	// }
+	//第二种方式:
+	var imgArr = ["img/h0.png","img/h1.png","img/h2.png","img/h3.png","img/h4.png","img/h5.png","img/h4.png","img/h3.png","img/h2.png","img/h1.png","img/h0.png"];
+	var index = 0;//记录图片的位置下标
+	 var timer = setInterval(function(){
+		 index++;
+		 wolfImg.src = imgArr[index];
+		 if (index == imgArr.length - 1) {
+		 	clearInterval(timer);
+			//移除该节点
+			 document.body.removeChild(wolfImg);
+		 }
+	 },150);
+	</script>
+</html>
