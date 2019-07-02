@@ -1,0 +1,85 @@
+@import "base.css";
+/*导入样式表*/
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
+
+.search{
+    padding:0.17rem 0.22rem;
+    height: 0.6rem;
+    display: flex;
+    justify-content: space-around;
+    background: red;
+}
+.search > a{
+    display: inline-block;
+    width: 5.55rem;
+    height: 0.6rem;
+    background: white;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    color: #000;
+    line-height: 0.6rem;
+    padding-left: 0.2rem;
+}
+.search span{
+    width: 0.5rem;
+    height: 0.5rem;
+
+}
+
+.san{
+    padding:0 0.22rem;
+    height: 0.6rem;
+    display: flex;
+    justify-content: space-around;
+    background: red;
+}
+.san > span{
+    /*width: 1.2rem;
+    height: 0.6rem;*/
+    line-height: 0.6rem;
+    /*background: white;*/
+    color: black;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+
+.ditu{
+    padding:0.17rem 0.22rem;
+    height: 100%;
+    /*background: #000;*/
+}
+.ditu > img{
+    width: 100%;
+    height: 100%;
+}
+
+
