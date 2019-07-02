@@ -91,7 +91,7 @@ footer > a{
     height: 100%;
     /*background: #046B80;*/
     font-size: 0.24rem;
-    color: black;
+    color: white;
     /*图片和文字居中（前提：图片不是block的形式）*/
     text-align: center;
     padding-top: 0.1rem;
