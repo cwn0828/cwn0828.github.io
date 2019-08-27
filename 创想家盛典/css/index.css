@@ -1,0 +1,1188 @@
+html {
+	font-size: 50px;
+	overflow: hidden;
+}
+
+#page1 {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url(../images/pageone/bg.jpg) repeat;
+	position: relative;
+}
+
+#starA {
+	position: absolute;
+	top: 4rem;
+	left: -2.5rem;
+}
+
+#starB {
+	position: absolute;
+	bottom: 4rem;
+	right: -3rem;
+}
+
+#starC {
+	position: absolute;
+	top: 3rem;
+	right: -3rem;
+}
+
+#imgs {
+	width: 6.25rem;
+	height: 6.25rem;
+	margin: 0 auto;
+	position: relative;
+	top: 1rem;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+#re {
+	height: 6.25rem;
+	position: absolute;
+	left: -3.5rem;
+	top: 0;
+}
+
+#rr {
+	width: 100%;
+	position: absolute;
+	right: -7rem;
+	top: 0;
+}
+
+#hh {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: -10rem;
+}
+
+#gg {
+	width: 1.7rem;
+	position: absolute;
+	left: 2.4rem;
+	top: -6.5rem;
+}
+
+#qq {
+	height: 3.25rem;
+	position: absolute;
+	left: 1.41rem;
+	top: -4.5rem;
+}
+
+#yy {
+	width: 4.55rem;
+	position: absolute;
+	right: 0;
+	bottom: -8.5rem;
+}
+
+#ccc {
+	width: .8rem;
+	position: absolute;
+	right: 2.15rem;
+	top: -4.5rem;
+}
+
+#dd {
+	width: 1.35rem;
+	position: absolute;
+	left: -2rem;
+	top: 2.2rem;
+}
+
+#dda {
+	width: .5rem;
+	position: absolute;
+	left: -1.5rem;
+	top: 2.65rem;
+}
+
+#pd {
+	width: 2.4rem;
+	position: absolute;
+	left: .3rem;
+	top: 2.5rem;
+}
+
+#pr {
+	height: 11.7rem;
+	position: absolute;
+	left: 1.43rem;
+	bottom: 0;
+}
+
+#pe {
+	width: 2.55rem;
+	position: absolute;
+	left: 2.4rem;
+	top: 2.4rem;
+}
+
+#pm {
+	width: 8.85rem;
+	height: 12.15rem;
+	position: absolute;
+	right: 0;
+	top: 2.2rem;
+}
+
+#maker {
+	width: 13.5rem;
+	position: absolute;
+	right: -10rem;
+	bottom: 0;
+}
+
+#title {
+	width: 4rem;
+	height: 1.7rem;
+	margin: 3rem auto 0;
+	position: relative;
+}
+
+#title img {
+	width: 100%;
+}
+
+#blue {
+	width: 3.5rem;
+	position: absolute;
+	top: -1.2rem;
+	left: -1rem;
+}
+
+#pink {
+	width: 4.5rem;
+	position: absolute;
+	top: -.4rem;
+	right: -.8rem;
+}
+
+#page2 {
+	width: 100%;
+	height: 100vh;
+	background: url(../images/pagetwo/abc4.gif) repeat 0rem -.8rem;
+	position: relative;
+	background-size: cover;
+}
+
+#ww {
+	width: 65%;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0rem;
+	bottom: 3rem;
+	z-index: 10;
+}
+
+#www {
+	width: 85%;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0rem;
+	bottom: 2rem;
+	z-index: 10;
+}
+
+#page3 {
+	width: 100%;
+	height: 100vh;
+	background: url(../images/pagethree/bg.jpg);
+	position: relative;
+}
+
+#g1 {
+	width: 40%;
+	position: absolute;
+	top: 8rem;
+	right: 1rem;
+}
+
+#g2 {
+	width: 40%;
+	position: absolute;
+	top: 6.5rem;
+	left: 0;
+}
+
+#g3 {
+	width: 65%;
+	position: absolute;
+	top: 4.5rem;
+	right: .5rem;
+}
+
+#g4 {
+	width: 40%;
+	position: absolute;
+	top: 2.5rem;
+	left: .1rem;
+}
+
+#g5 {
+	width: 50%;
+	position: absolute;
+	top: .7rem;
+	right: -.1rem;
+}
+
+#i1 {
+	width: 10%;
+	position: absolute;
+	top: 4rem;
+	right: 1.5rem;
+}
+
+#i2 {
+	width: 10%;
+	position: absolute;
+	top: 9.5rem;
+	left: 1rem;
+}
+
+#i3 {
+	width: 15%;
+	position: absolute;
+	top: .5rem;
+	left: 1rem;
+}
+
+@-webkit-keyframes box-left {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+
+	100% {
+		transform: translate3d(.7rem, .7rem, .7rem);
+	}
+}
+
+@-webkit-keyframes box-up {
+	100% {
+		transform: translate3d(0, 0, 0);
+	}
+
+	0% {
+		transform: translate3d(.7rem, .7rem, .7rem);
+	}
+}
+
+.box-animated-left {
+	animation: box-left 3.5s linear alternate infinite;
+}
+
+.box-animated-up {
+	animation: box-up 3.5s linear alternate infinite;
+}
+
+#page4 {
+	width: 100%;
+	height: 100vh;
+	background: url(../images/pagefour/bg.jpg);
+	position: relative;
+}
+
+#bgCircle img {
+	width: 0;
+	height: 0;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#bgLine img {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+#bgcover{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transition: 1s;
+	border-radius: 50%;
+}
+
+#circle img {
+	position: absolute;
+	top: 6.5rem;
+	left: 3.5rem;
+	width: 6%;
+}
+
+#font {
+	text-align: center;
+	font-size: .44rem;
+	color: white;
+	position: absolute;
+	top: 4.5rem;
+	left: 2.45rem;
+}
+
+#f1 {
+	width: 0;
+	position: absolute;
+	top: 5.5rem;
+	left: 3rem;
+}
+
+#f2 {
+	width: 0;
+	position: absolute;
+	top: 5.5rem;
+	left: 2.8rem;
+}
+
+#f3 {
+	width: 0;
+	position: absolute;
+	top: 5.5rem;
+	right: 3.8rem;
+}
+
+#f4 {
+	width: 0;
+	position: absolute;
+	top: 5.5rem;
+	left: 2.8rem;
+}
+
+#f5 {
+	width: 0;
+	position: absolute;
+	top: 5.5rem;
+	right: 3.8rem;
+}
+
+#f6 {
+	width: 0;
+	position: absolute;
+	bottom: 6rem;
+	left: 3rem;
+}
+
+#f7 {
+	width: 0;
+	position: absolute;
+	bottom: 6rem;
+	right: 4rem;
+}
+
+#f8 {
+	width: 0;
+	position: absolute;
+	bottom: 6.5rem;
+	left: 2.6rem;
+}
+
+#f9 {
+	width: 3.25rem;
+	margin: auto;
+	position: absolute;
+	bottom: 1.6rem;
+	right: 0;
+	left: 0;
+	opacity: 0;
+}
+
+#swiper-container {
+	/* border: 3px solid #ECABDF; */
+	width: 6rem;
+	height: 9rem;
+	/* width: 100%; */
+	margin: auto;
+	position: relative;
+	top: 2rem;
+	left: 0;
+	overflow: hidden;
+	/* border: 1px solid white; */
+}
+
+#close {
+	width: 1rem;
+	height: 1rem;
+}
+
+#close img {
+	width: 100%;
+}
+
+.swiper-wrapper {
+	/* width: calc(500px*2); */
+	overflow: hidden;
+	position: relative;
+	left: 0;
+}
+
+.swiper-wrapper .swiper-item {
+	/* 和swiper-container宽度一致 */
+	float: left;
+	margin-top: 2rem;
+}
+
+.swiper-wrapper img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+#swiper-button-left,
+#swiper-button-right {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	cursor: pointer;
+}
+
+#swiper-button-right {
+	right: -.3rem;
+}
+
+
+#page5 {
+	width: 100%;
+	height: 100vh;
+	background: url(../images/pagefive/bg.jpg);
+	position: relative;
+}
+
+#tamen {
+	width: 2.95rem;
+	position: absolute;
+	top: .6rem;
+	left: .8rem;
+	opacity: 0;
+}
+
+.persons {
+	width: 1.1rem;
+	height: 0;
+	transform: rotateZ(15deg);
+	overflow: hidden;
+	z-index: 1;
+}
+
+.persons img {
+	width: 100%;
+}
+
+.bgPersons {
+	width: 2.1rem;
+	height: 0rem;
+	overflow: hidden;
+}
+
+.bgPersons img {
+	width: 100%;
+}
+
+#person1 {
+	position: absolute;
+	top: 2.9rem;
+	right: 2.2rem;
+}
+
+#bgPerson1 {
+	position: absolute;
+	top: 2rem;
+	right: 1.9rem;
+}
+
+#person2 {
+	position: absolute;
+	top: 3.5rem;
+	right: .1rem;
+}
+
+#bgPerson2 {
+	position: absolute;
+	top: 2.6rem;
+	right: -.2rem;
+}
+
+#person3 {
+	position: absolute;
+	top: 3.6rem;
+	left: .7rem;
+}
+
+#bgPerson3 {
+	position: absolute;
+	top: 2.7rem;
+	left: 0rem;
+}
+
+#person4 {
+	position: absolute;
+	top: 5.6rem;
+	left: 2.4rem;
+}
+
+#bgPerson4 {
+	position: absolute;
+	top: 4.6rem;
+	left: 1.6rem;
+}
+
+#person5 {
+	position: absolute;
+	top: 6.1rem;
+	right: 1.9rem;
+}
+
+#bgPerson5 {
+	position: absolute;
+	top: 5.2rem;
+	right: 1.6rem;
+}
+
+#person6 {
+	position: absolute;
+	bottom: 3.6rem;
+	left: .6rem;
+}
+
+#bgPerson6 {
+	position: absolute;
+	top: 7.2rem;
+	right: 0rem;
+}
+
+#person7 {
+	position: absolute;
+	bottom: 2.7rem;
+	right: 2.7rem;
+}
+
+#bgPerson7 {
+	position: absolute;
+	top: 7.3rem;
+	left: -.2rem;
+}
+
+#person8 {
+	position: absolute;
+	bottom: 3.6rem;
+	right: .3rem;
+}
+
+#bgPerson8 {
+	position: absolute;
+	top: 8.1rem;
+	left: 2.9rem;
+}
+
+#person9 {
+	position: absolute;
+	bottom: .1rem;
+	left: 1.9rem;
+}
+
+#bgPerson9 {
+	position: absolute;
+	top: 10.8rem;
+	left: 1.1rem;
+}
+
+#person10 {
+	position: absolute;
+	bottom: .7rem;
+	right: 1rem;
+}
+
+#bgPerson10 {
+	position: absolute;
+	top: 10.1rem;
+	right: .8rem;
+}
+
+#tap {
+	position: absolute;
+	bottom: 2.3rem;
+	left: .3rem;
+	opacity: 0;
+}
+
+#detail {
+	width: 6.55rem;
+	height: 10rem;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 2rem;
+	z-index: 2;
+	background-color: rgb(27, 27, 27);
+	border: 1px solid #CCCCCC;
+	overflow: hidden;
+}
+
+#false {
+	width: 1.15rem;
+	position: absolute;
+	top: .5rem;
+	right: 0;
+	z-index: 3;
+}
+
+#showDetail {
+	width: 999rem;
+	height: 10rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.show {
+	width: 6.55rem;
+	float: left;
+}
+
+.people {
+	width: 100%;
+	margin-top: .8rem;
+	float: left;
+}
+
+.showFont {
+	width: 6.55rem;
+	height: 3.8rem;
+}
+
+.showFont img {
+	width: 100%;
+	float: left;
+}
+
+#page6 {
+	width: 100%;
+	height: 100vh;
+	background: url(../images/pagesix/bg.jpg);
+	position: relative;
+}
+
+#t1 {
+	width: 2.7rem;
+	position: absolute;
+	top: 7rem;
+	left: -3rem;
+}
+
+#t2 {
+	width: 3rem;
+	position: absolute;
+	top: 7rem;
+	right: 7.5rem;
+}
+
+#t3 {
+	width: .65rem;
+	position: absolute;
+	top: 3.5rem;
+	right: -1rem;
+}
+
+#t4 {
+	width: 1rem;
+	position: absolute;
+	top: 8rem;
+	left: 8rem;
+}
+
+#t5 {
+	width: 2.7rem;
+	position: absolute;
+	top: 5rem;
+	left: 7.5rem;
+	z-index: 1;
+}
+
+#t6 {
+	width: 1.5rem;
+	position: absolute;
+	top: 9rem;
+	right: 7.5rem;
+}
+
+#t7 {
+	width: .6rem;
+	position: absolute;
+	top: 5.5rem;
+	left: -1rem;
+}
+
+#t8 {
+	width: 2rem;
+	position: absolute;
+	bottom: .5rem;
+	right: 7.5rem;
+}
+
+#ttw {
+	width: 4.5rem;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.8rem;
+	z-index: 2;
+}
+
+#ttww {
+	width: 3.8rem;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 3.3rem;
+}
+
+#xwn {
+	width: 1.7rem;
+	position: absolute;
+	top: 4.8rem;
+	left: 1.65rem;
+}
+
+#thc {
+	width: 2.22rem;
+	position: absolute;
+	top: 5rem;
+	right: 1.45rem;
+}
+
+#hp {
+	width: 1.65rem;
+	position: absolute;
+	top: 7.5rem;
+	left: 1rem;
+}
+
+#jy {
+	width: 1.65rem;
+	position: absolute;
+	top: 7.4rem;
+	left: 2.85rem;
+}
+
+#jd {
+	width: 1.65rem;
+	position: absolute;
+	top: 7.3rem;
+	right: 1.2rem;
+}
+
+#twq {
+	width: 1.75rem;
+	position: absolute;
+	bottom: 1.2rem;
+	left: 2.15rem;
+}
+
+#wp {
+	width: 1.75rem;
+	position: absolute;
+	bottom: 1.8rem;
+	right: 1.15rem;
+}
+
+#page7 {
+	width: 100%;
+	height: 100vh;
+	background: url(../images/pageseven/Cbg.jpg);
+	position: relative;
+}
+
+#s1 {
+	width: .6rem;
+	position: absolute;
+	top: 1rem;
+	left: .6rem;
+}
+
+#s2 {
+	width: 3.5rem;
+	position: absolute;
+	top: 3.5rem;
+	left: -2.8rem;
+}
+
+#s3 {
+	width: 1.7rem;
+	position: absolute;
+	top: 3rem;
+	right: -.9rem;
+}
+
+#s4 {
+	width: 1.75rem;
+	position: absolute;
+	top: 6.5rem;
+	right: -1.1rem;
+}
+
+#s5 {
+	width: 1.6rem;
+	position: absolute;
+	bottom: .25rem;
+	left: -1rem;
+}
+
+#s6 {
+	width: .45rem;
+	position: absolute;
+	bottom: .6rem;
+	right: .9rem;
+}
+
+.sLines {
+	height: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.sLines img {
+	width: 4.1rem;
+	margin: 0 auto;
+	position: absolute;
+	top: 3.2rem;
+	left: 0;
+	right: 0;
+}
+
+#sLine1 {
+	height: 8.35rem;
+}
+
+#sLine2 {
+	/* height: 0; */
+}
+
+#sTitle {
+	width: 4.9rem;
+	margin: 0 auto;
+	position: absolute;
+	top: 1.1rem;
+	left: 0;
+	right: 0;
+}
+
+#sTitlet {
+	width: 6.9rem;
+	margin: 0 auto;
+	position: absolute;
+	top: 1.8rem;
+	left: 0;
+	right: 0;
+}
+
+#wo1 {
+	width: 4.8rem;
+	position: absolute;
+	top: 4.4rem;
+	right: .5rem;
+}
+
+#wo2 {
+	width: 5.1rem;
+	position: absolute;
+	top: 7.2rem;
+	left: .3rem;
+}
+
+#wo3 {
+	width: 4.25rem;
+	position: absolute;
+	top: 9.9rem;
+	right: 1.15rem;
+}
+
+#page8 {
+	width: 100%;
+	height: 100vh;
+	background: url(../images/pageeight/Cbg.jpg);
+	position: relative;
+	overflow: hidden;
+}
+
+#e1 {
+	width: 2.7rem;
+	position: absolute;
+	top: 7rem;
+	left: -3rem;
+}
+
+#e2 {
+	width: 3rem;
+	position: absolute;
+	top: 7rem;
+	right: 7.5rem;
+}
+
+#e3 {
+	width: 1.2rem;
+	position: absolute;
+	top: 3.5rem;
+	right: -1rem;
+	transform: rotateZ(15deg);
+}
+
+#e4 {
+	width: 1rem;
+	position: absolute;
+	top: 8rem;
+	left: 8rem;
+}
+
+#e5 {
+	width: 2.7rem;
+	position: absolute;
+	top: 5rem;
+	left: 7.5rem;
+	z-index: 1;
+}
+
+#e6 {
+	width: 1rem;
+	position: absolute;
+	top: 9rem;
+	right: 7.5rem;
+}
+
+#partner {
+	width: 3rem;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.8rem;
+	z-index: 2;
+}
+
+.partner {
+	width: 100%;
+	position: relative;
+	top: 4.45rem;
+	overflow: hidden;
+}
+
+#ellemen {
+	width: 4.4rem;
+	height: 1.88rem;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+#graduation {
+	width: 4.15rem;
+	height: 2.3rem;
+	/* margin-top: .44rem; */
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 2.35rem;
+	z-index: 10;
+}
+
+#kr {
+	width: 1.7rem;
+	height: 1.75rem;
+	float: left;
+	margin-left: .75rem;
+	margin-top: 5.4rem;
+}
+
+#bank {
+	width: 1.7rem;
+	height: 2.15rem;
+	float: left;
+	margin-left: .45rem;
+	margin-top: 5.25rem;
+}
+
+#aiqiyi {
+	width: 1.7rem;
+	height: 1.6rem;
+	float: left;
+	margin-left: .45rem;
+	margin-top: 5.3rem;
+}
+
+#page9 {
+	width: 100%;
+	height: 100vh;
+	background: url(../images/pageeight/Cbg.jpg);
+	position: relative;
+	overflow: hidden;
+}
+
+#n1 {
+	width: 3rem;
+	position: absolute;
+	top: 1rem;
+	left: .5rem;
+}
+
+#n2 {
+	width: 2.7rem;
+	position: absolute;
+	top: 1.1rem;
+	right: .6rem;
+}
+
+#share {
+	width: 1.2rem;
+	position: absolute;
+	top: .2rem;
+	right: .3rem;
+}
+
+#n4 {
+	width: 1rem;
+	position: absolute;
+	top: .2rem;
+	left: 1rem;
+}
+
+#n5 {
+	width: 2.5rem;
+	position: absolute;
+	top: 1.1rem;
+	left: 2.1rem;
+	z-index: 1;
+}
+
+#n6 {
+	width: .8rem;
+	position: absolute;
+	top: 4rem;
+	right: .5rem;
+	transform: rotateZ(-15deg);
+}
+
+#thanks {
+	width: 5.2rem;
+	margin: 0 auto;
+	position: absolute;
+	left: -.3rem;
+	right: 0;
+	top: 1.8rem;
+	z-index: 2;
+}
+
+#long{
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 4.1rem;
+	width: 4.68rem;
+}
+
+#de{
+	position: absolute;
+	top: 7rem;
+	width: 100%;
+}
+
+#diamond{
+	width: 2.1rem;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+
+#payfor{
+	width: 1.3rem;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: .35rem;
+}
+
+#dream{
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	width: 5rem;
+	top: 1.9rem;
+}
+
+#ellemen1{
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 3rem;
+	width: 3rem;
+}
+
+.url{
+	width: 100%;
+	font-size: .26rem;
+	color: #fff;
+	position: absolute;
+	top: 3.6rem;
+	text-align: center;
+}
+
+.bottom{
+	width: 100%;
+	font-size: .26rem;
+	position: absolute;
+	top: 5.7rem;
+	text-align: center;
+	color: #fff;
+}
+
+.slider {
+	width: .5rem;
+	height: .25rem;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: .4rem;
+}
+
+.slider img {
+	width: 100%;
+}
+
+.music {
+	width: .55rem;
+	height: .55rem;
+	position: absolute;
+	bottom: .4rem;
+	right: .3rem;
+}
+
+.music img {
+	width: 100%;
+}
